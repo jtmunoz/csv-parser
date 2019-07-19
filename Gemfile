@@ -9,15 +9,15 @@ gem 'pg', '~> 0.20.0'
 gem 'sinatra', '~> 1.0'
 gem 'sinatra-contrib'
 
-gem 'activesupport', '~>4.2'
-gem 'activerecord', '~>4.2'
+gem 'activesupport', '~>5.0'
+gem 'activerecord', '~>5.0'
 
 gem 'rake'
 
 gem 'shotgun'
 
 group :test do
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers', '~>4.1.1'
   gem 'rack-test'
   gem 'rspec'
   gem 'capybara'
