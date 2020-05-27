@@ -9,8 +9,8 @@ gem 'pg', '~> 0.20.0'
 gem 'sinatra', '~> 1.0'
 gem 'sinatra-contrib'
 
-gem 'activesupport', '~>5.0'
-gem 'activerecord', '~>5.0'
+gem 'activesupport', '~>6.0'
+gem 'activerecord', '~>6.0'
 
 gem 'rake'
 
